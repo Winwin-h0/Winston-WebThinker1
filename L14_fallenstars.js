@@ -5,5 +5,5 @@ let starSpeed = []
 let numStar = []
 
 function setup(){
-    
+    createImageBitmap
 }
