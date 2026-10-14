@@ -20,5 +20,6 @@ function draw(){
     background("black")
 
     for(let i = 0; i < numStars; i++)
-        fill()
+        fill(255,255,0)
+        circle()
 }
