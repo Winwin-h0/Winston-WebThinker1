@@ -5,13 +5,13 @@ let starSpeed = []
 let numStar = []
 
 function setup(){
-    createCanvas(600,400)
+    createCanvas(600,400);
 
     for (let i = 0; i < numStar; i++){
-        starX.push(random(width))
-        console.log(starX)
-        starX.push(random(-300, -50))
-        starSize.push(random(10,20))
-        starSpeed.push(random(10,20))
+        starX.push(random(width));
+        console.log(starX);
+        starX.push(random(-300, -50));
+        starSize.push(random(10,20));
+        starSpeed.push(random(10,20));
     }
 }
