@@ -10,5 +10,6 @@ function setup(){
     for (let i = 0; i < numStar; i++)
         starX.push(random(width))
         console.log(starX)
-        
+        starX.push(random(-300, -50))
+
 }
