@@ -1,8 +1,8 @@
-let starX = []
-let starY = []
-let starSize = []
-let starSpeed = []
-let numStar = 10
+let starX = [];
+let starY = [];
+let starSize = [];
+let starSpeed = [];
+let numStar = 10;
 
 function setup(){
     createCanvas(600,400);
@@ -14,4 +14,8 @@ function setup(){
         starSize.push(random(10,20));
         starSpeed.push(random(10,20));
     }
+}
+
+function draw(){
+    
 }
