@@ -2,7 +2,7 @@ let starX = []
 let starY = []
 let starSize = []
 let starSpeed = []
-let numStar = []
+let numStar = 10
 
 function setup(){
     createCanvas(600,400);
