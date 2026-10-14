@@ -1,2 +1,2 @@
-let starX =  []
-let 
+let starX = []
+let starY = []
