@@ -11,5 +11,7 @@ function setup(){
         starX.push(random(width))
         console.log(starX)
         starX.push(random(-300, -50))
+        console.log(starY)
+        starSize
 
 }
