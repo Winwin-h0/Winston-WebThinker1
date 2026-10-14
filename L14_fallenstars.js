@@ -5,5 +5,8 @@ let starSpeed = []
 let numStar = []
 
 function setup(){
-    createCanvas(6)
+    createCanvas(600,400)
+
+    for (let i = 0; i < numStar; i++)
+        star
 }
