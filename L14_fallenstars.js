@@ -20,5 +20,5 @@ function draw(){
     background("black")
 
     for(let i = 0; i < numStars; i++)
-        fill
+        fill()
 }
