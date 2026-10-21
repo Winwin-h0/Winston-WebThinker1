@@ -88,6 +88,8 @@ function draw(){
 }
 
 function mousePressed(){
-    
+    if (!audioStarted){
+        
+    }
 }
 
