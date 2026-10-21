@@ -10,6 +10,10 @@ let gameOver = false
 
 let score = 0
 
+let osc;
+
+let 
+
 function setup(){
     createCanvas(600,400);
 
@@ -28,7 +32,7 @@ function draw(){
 
 
     background("black");
-    
+
     textSize(16)
 
     text("Score: " + score, 50, 100)
