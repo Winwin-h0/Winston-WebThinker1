@@ -28,6 +28,7 @@ function setup(){
     playerX = width/2
 
     osc = new p5.Oscillator()
+    
 
 }
 
