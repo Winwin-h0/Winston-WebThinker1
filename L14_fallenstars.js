@@ -17,10 +17,13 @@ function setup(){
 }
 
 function draw(){
+
     background("black");
 
     for (let i = 0; i < numStar; i++);
+
         fill(255,255,0);
+
         circle(starX[i], starY[i], starSize[i]);
         starY[i] += starSpeed[i];
 
