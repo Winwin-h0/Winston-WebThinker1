@@ -37,21 +37,6 @@ function draw(){
             starSpeed[i] = random(2,5);
         }
     }
-    if (keyIsDown(LEFT_ARROW)){
-    playerX -= 5
-}
-
-if (keyIsDown(RIGHT_ARROW)){
-    playerX += 5
-}
-
-playerX = constrain(playerX, 0, width - 40)
-
-fill(147,233,190)
-
-rect(playerX, height - 40, 40, 40)
-}
-
 if (keyIsDown(LEFT_ARROW)){
     playerX -= 5
 }
@@ -65,3 +50,5 @@ playerX = constrain(playerX, 0, width - 40)
 fill(147,233,190)
 
 rect(playerX, height - 40, 40, 40)
+}
+
