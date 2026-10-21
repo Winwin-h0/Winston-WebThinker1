@@ -47,7 +47,7 @@ function draw(){
                 gameOver = true
             }
             score++
-            text("Score: score")
+            text("Score: " + score, )
         }
         if (keyIsDown(LEFT_ARROW)){
             playerX -= 5;
