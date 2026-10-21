@@ -97,7 +97,7 @@ function playRandomTone(){
     if(audioStarted){
         let freq = random(100,1000)
         osc.freq(freq)
-        osc.amp()
+        osc.amp(0.5,0.1)
     }
 }
 
