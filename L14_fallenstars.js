@@ -90,7 +90,7 @@ function draw(){
 function mousePressed(){
     if (!audioStarted){
         userStartAudio()
-        audios
+        audioStarted = true
     }
 }
 
