@@ -20,7 +20,7 @@ function draw(){
 
     background("black");
 
-    for (let i = 0; i < numStar; i++);
+    for (let i = 0; i < numStar; i++){
 
         fill(255,255,0);
 
@@ -32,4 +32,5 @@ function draw(){
             starX[i] = random(width);
             starSpeed[i] = random(2,5);
         }
+    }
 }
