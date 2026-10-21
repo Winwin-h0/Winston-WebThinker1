@@ -61,7 +61,7 @@ function draw(){
 
             if (starY[i] > height - 40 && starX[i] - playerX >= 0 && starX[i] - playerX <= 40){
                 gameOver = true
-                osc
+                osc.amp(0)
             }
 
         }
