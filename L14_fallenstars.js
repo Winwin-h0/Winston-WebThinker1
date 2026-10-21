@@ -28,6 +28,8 @@ function draw(){
 
 
     background("black");
+    
+    textSize(16)
 
     text("Score: " + score, 50, 100)
 
