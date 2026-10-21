@@ -48,7 +48,7 @@ function draw(){
     }else{
         fill(255,0,0)
         textSize(32)
-        text("Game Over",)
+        text("Game Over", 300, 200)
     }
 
 
