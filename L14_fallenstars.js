@@ -16,6 +16,8 @@ function setup(){
         starSize.push(random(10,20));
         starSpeed.push(random(2,5));
     }
+
+    playerX = 
 }
 
 function draw(){
