@@ -25,7 +25,7 @@ function setup(){
 function draw(){
 
     background("black");
-    
+
     if(!gameOver){
 
         for (let i = 0; i < numStar; i++){
@@ -45,6 +45,8 @@ function draw(){
                 gameOver = true
             }
         }
+    }else{
+        fil
     }
 
 
