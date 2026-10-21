@@ -46,7 +46,7 @@ function draw(){
             }
         }
     }else{
-        fil
+        fill(255,0,0)
     }
 
 
