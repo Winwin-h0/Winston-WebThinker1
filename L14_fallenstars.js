@@ -25,25 +25,26 @@ function setup(){
 function draw(){
 
     background("black");
-    if(!gameOver)
+    if(!gameOver){
 
-    for (let i = 0; i < numStar; i++){
+        for (let i = 0; i < numStar; i++){
 
-        fill(255,255,0);
+            fill(255,255,0);
 
-        circle(starX[i], starY[i], starSize[i]);
-        starY[i] += starSpeed[i];
+            circle(starX[i], starY[i], starSize[i]);
+            starY[i] += starSpeed[i];
 
-        if (starY[i] > height){
-            starY[i] = random(-200, -50);
-            starX[i] = random(width);
-            starSpeed[i] = random(2,5);
+            if (starY[i] > height){
+                starY[i] = random(-200, -50);
+                starX[i] = random(width);
+                starSpeed[i] = random(2,5);
+            }
+
+            if (starY[i] > height - 40 && starX[i] - player >= 0 && starX[i] - player <= 40){
+                gameOver = true
+            }
         }
-
-        if (starY[i] > height - 40 && starX[i] - player >= 0 && starX[i] - player <= 40){
-            gameOver = true
-        }
-    }
+    
 
 
 if (keyIsDown(LEFT_ARROW)){
