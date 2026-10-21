@@ -17,7 +17,7 @@ function setup(){
         starSpeed.push(random(2,5));
     }
 
-    playerX = 
+    playerX = width/2
 }
 
 function draw(){
