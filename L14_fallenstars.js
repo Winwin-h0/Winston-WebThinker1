@@ -6,6 +6,8 @@ let numStar = 10;
 
 let playerX;
 
+let gameOver = false
+
 function setup(){
     createCanvas(600,400);
 
@@ -38,7 +40,7 @@ function draw(){
         }
 
         if (starY[i] > height - 40 && starX[i] - player >= 0 && starX[i] - player <= 40){
-            
+
         }
     }
 
