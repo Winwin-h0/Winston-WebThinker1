@@ -25,7 +25,7 @@ function setup(){
 }
 
 function draw(){
-    text("Score: " + score, 0, 0)
+    text("Score: " + score, 50, 100)
 
     background("black");
 
