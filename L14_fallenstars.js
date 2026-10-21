@@ -12,7 +12,7 @@ function setup(){
         console.log(starX);
         starY.push(random(-300, -50));
         starSize.push(random(10,20));
-        starSpeed.push(random(10,20));
+        starSpeed.push(random(2,5));
     }
 }
 
