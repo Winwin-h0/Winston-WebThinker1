@@ -50,3 +50,5 @@ if(keyIsDown(RIGHT_ARROW)){
 playerX = constrain(playerX, 0, width - 40)
 
 fill(147,233,190)
+
+x = playerX, height - 40, 40, 40
