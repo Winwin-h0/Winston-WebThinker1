@@ -47,6 +47,8 @@ function draw(){
         }
     }else{
         fill(255,0,0)
+        textSize(32)
+        
     }
 
 
