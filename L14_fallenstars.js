@@ -8,6 +8,8 @@ let playerX;
 
 let gameOver = false
 
+let score = 0
+
 function setup(){
     createCanvas(600,400);
 
