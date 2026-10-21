@@ -95,7 +95,8 @@ function mousePressed(){
 }
 function playRandomTone(){
     if(audioStarted){
-        
+        let freq = random(100,1000)
+        os
     }
 }
 
