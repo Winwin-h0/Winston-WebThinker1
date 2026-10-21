@@ -12,7 +12,7 @@ let score = 0
 
 let osc;
 
-let audioStarter = false
+let audioStarted = false
 
 function setup(){
     createCanvas(600,400);
@@ -90,7 +90,7 @@ function draw(){
 function mousePressed(){
     if (!audioStarted){
         userStartAudio()
-        audio
+        audios
     }
 }
 
