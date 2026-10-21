@@ -29,7 +29,7 @@ function setup(){
 
     osc = new p5.Oscillator()
     osc.start()
-    osc.amp
+    osc.amp(0)
 
 }
 
