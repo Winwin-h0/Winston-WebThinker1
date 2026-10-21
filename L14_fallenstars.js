@@ -42,8 +42,8 @@ function draw(){
                 starY[i] = random(-200, -50);
                 starX[i] = random(width);
                 starSpeed[i] = random(2,5);
+                score++
             }
-    score++
 
 
             if (starY[i] > height - 40 && starX[i] - playerX >= 0 && starX[i] - playerX <= 40){
