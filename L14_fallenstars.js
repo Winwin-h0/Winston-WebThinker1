@@ -44,5 +44,5 @@ if(keyIsDown(LEFT_ARROW)){
 }
 
 if(keyIsDown(RIGHT_ARROW)){
-    playerX -= 5
+    playerX += 5
 }
