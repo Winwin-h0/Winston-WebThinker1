@@ -94,6 +94,8 @@ function mousePressed(){
     }
 }
 function playRandomTone(){
-    
+    if(audioStarted){
+        
+    }
 }
 
