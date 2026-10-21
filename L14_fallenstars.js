@@ -44,13 +44,13 @@ if (keyIsDown(LEFT_ARROW)){
 }
 
 if (keyIsDown(RIGHT_ARROW)){
-    playerX += 5
+    playerX += 5;
 }
 
-playerX = constrain(playerX, 0, width - 40)
+playerX = constrain(playerX, 0, width - 40);
 
-fill(147,233,190)
+fill(147,233,190);
 
-rect(playerX, height - 40, 40, 40)
+rect(playerX, height - 40, 40, 40);
 }
 
