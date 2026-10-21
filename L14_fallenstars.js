@@ -25,9 +25,11 @@ function setup(){
 }
 
 function draw(){
-    text("Score: " + score, 50, 100)
+
 
     background("black");
+
+    text("Score: " + score, 50, 100)
 
     if(!gameOver){
 
