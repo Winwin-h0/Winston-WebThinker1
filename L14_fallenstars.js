@@ -66,7 +66,7 @@ function draw(){
         textSize(32)
         background('black')
         text("Game Over", 300, 200)
-        text("final score", 300,  )
+        text("final score", 300, 200 + 40)
 
     }
 }
