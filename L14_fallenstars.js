@@ -12,7 +12,7 @@ let score = 0
 
 let osc;
 
-let adi
+let audioStarter = false
 
 function setup(){
     createCanvas(600,400);
