@@ -42,3 +42,7 @@ function draw(){
 if(keyIsDown(LEFT_ARROW)){
     PLAYERX -= 5
 }
+
+if(keyIsDown(RIGHT_ARROW)){
+    PLAYERX -= 5
+}
