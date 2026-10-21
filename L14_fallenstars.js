@@ -21,12 +21,12 @@ function draw(){
 
     for (let i = 0; i < numStar; i++);
         fill(255,255,0);
-        circle(starX[i], starY[i], starSize[i]);;
+        circle(starX[i], starY[i], starSize[i]);
         starY[i] += starSpeed[i];
 
         if (starY[i] > height){
-            starY[i] = random(-200, -50)
-            starX[i] = random(width)
-            starSpeed[i] = random(2,5)
+            starY[i] = random(-200, -50);
+            starX[i] = random(width);
+            starSpeed[i] = random(2,5);
         }
 }
