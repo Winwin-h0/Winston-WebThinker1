@@ -49,8 +49,7 @@ function draw(){
             if (starY[i] > height - 40 && starX[i] - playerX >= 0 && starX[i] - playerX <= 40){
                 gameOver = true
             }
-            score++
-            text("Score: " + score, 0, 0)
+
         }
         if (keyIsDown(LEFT_ARROW)){
             playerX -= 5;
