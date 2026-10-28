@@ -1,5 +1,5 @@
 Genre: 
-Theme: 
+Theme: Fantasy
 Mechanics: shoot/attack
 Objectives: Kill the other players
 Controls: Moving around, shooting/attacking players
