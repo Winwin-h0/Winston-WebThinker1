@@ -12,7 +12,7 @@ let score = 0
 
 let osc;
 
-let audioStarted = false
+let audioStarted = true
 
 function preload(){
     loadSound(coin-sound.mp3)
