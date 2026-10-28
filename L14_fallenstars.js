@@ -14,7 +14,9 @@ let osc;
 
 let audioStarted = false
 
-preLoad
+function preload(){
+    
+}
 
 function setup(){
     createCanvas(600,400);
