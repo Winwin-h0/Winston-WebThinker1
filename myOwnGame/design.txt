@@ -2,5 +2,5 @@ Genre:
 Theme:
 Mechanics
 Objectives
-Controls: Moving around, shooting/
+Controls: Moving around, shooting/attacking players
 Game inspiration: Brawl Stars
