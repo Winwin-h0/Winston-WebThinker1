@@ -15,7 +15,7 @@ let osc;
 let audioStarted = false
 
 function preload(){
-    loadSound(rib)
+    loadSound(ribava)
 }
 
 function setup(){
