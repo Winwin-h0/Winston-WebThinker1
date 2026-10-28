@@ -15,7 +15,7 @@ let osc;
 let audioStarted = false
 
 function preload(){
-    loadSound(ribhavagrawal)
+    loadSound(ribhavagrawal-coin-recieved)
 }
 
 function setup(){
