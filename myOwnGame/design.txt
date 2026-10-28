@@ -1,4 +1,4 @@
-Genre: 
+Genre: platform
 Theme: Fantasy / cartoon
 Mechanics: shoot/attack
 Objectives: Kill the other players
