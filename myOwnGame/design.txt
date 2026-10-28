@@ -1,6 +1,6 @@
 Genre: Platformer
 Theme: Fantasy / cartoon
-Mechanics: shoot/attack
+Mechanics: Shoot/attack
 Objectives: Kill the other players
 Controls: Moving around, shooting/attacking players
 Game inspiration: Brawl Stars
