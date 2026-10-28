@@ -60,7 +60,7 @@ function draw(){
                 starX[i] = random(width);
                 starSpeed[i] = random(2,5);
                 score++
-                coin-soundplay()
+                coin-sound.play()
             }
 
 
