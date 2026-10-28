@@ -1,6 +1,6 @@
 Genre: 
 Theme:
-Mechanics: 
+Mechanics: shoot/attack
 Objectives: Kill the other players
 Controls: Moving around, shooting/attacking players
 Game inspiration: Brawl Stars
