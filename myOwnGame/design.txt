@@ -1,2 +1,4 @@
 Genre: 
 Theme:
+Mechanics
+Objectives
