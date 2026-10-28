@@ -15,7 +15,7 @@ let osc;
 let audioStarted = true
 
 function preload(){
-    loadSound(coin-sound.mp3)
+    coinSoundloadSound(coin-sound.mp3)
 }
 
 function setup(){
