@@ -2,3 +2,5 @@ Genre:
 Theme:
 Mechanics
 Objectives
+Controls:
+Game in
